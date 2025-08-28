@@ -1,6 +1,6 @@
 # Self-Supervised Learning for Object Detection in Thermal Camera Data
 
-This repository contains the code and configuration files used in the MSc thesis:
+This repository contains the final code and configuration files used in the MSc thesis, devloped on Google Colab:
 "Self-Supervised Learning for Object Detection in Thermal Camera Data for Autonomous Driving Applications"
 
 
