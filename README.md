@@ -14,3 +14,10 @@ Supervised Faster R-CNN (ResNet50 backbone)
 SSL-pretrained Faster R-CNN (SimCLR backbone)
 
 Evaluation is performed on validation and test splits of the FLIR dataset, reporting mAP@[0.5:0.95], mAP@0.5, and size-specific AP/AR metrics.
+
+# DataSet 
+This project uses the FLIR ADAS Thermal Dataset:
+
+Official download page: FLIR Dataset https://www.flir.com/oem/adas/adas-dataset-form/
+
+Due to licensing restrictions, the dataset cannot be redistributed in this repository.
