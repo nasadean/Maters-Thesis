@@ -21,3 +21,38 @@ This project uses the FLIR ADAS Thermal Dataset:
 Official download page: FLIR Dataset https://www.flir.com/oem/adas/adas-dataset-form/
 
 Due to licensing restrictions, the dataset cannot be redistributed in this repository.
+
+# Results (Summary)
+
+Validation performance after 20 epochs:
+
+Supervised Faster R-CNN: mAP[.5:.95] ≈ 0.022
+
+SSL Faster R-CNN: mAP[.5:.95] ≈ 0.026
+
+Final test performance:
+
+Both models: mAP[.5:.95] ≈ 0.002 (poor generalization, strong domain shift).
+
+# Future Work
+
+Larger and more diverse thermal datasets.
+
+Stronger SSL methods (BYOL, MoCo v3).
+
+Domain adaptation from visible-light to thermal.
+
+Longer training with improved compute resources.
+
+# License
+
+This repository is for academic use only as part of an MSc research project.
+Please cite the thesis if you use this code.
+
+# Acknowledgements
+
+FLIR Systems for providing the dataset.
+
+PyTorch Detection reference implementations.
+
+SimCLR authors for the backbone pretraining methodology.
