@@ -24,15 +24,28 @@ Due to licensing restrictions, the dataset cannot be redistributed in this repos
 
 # Results (Summary)
 
-Validation performance after 20 epochs:
+"1st time" Validation performance after 20 epochs:
 
-Supervised Faster R-CNN: mAP[.5:.95] ≈ 0.022
+Supervised Faster R-CNN: mAP[.5:.95] = 0.022
 
-SSL Faster R-CNN: mAP[.5:.95] ≈ 0.026
+SSL Faster R-CNN: mAP[.5:.95] = 0.026
 
 Final test performance:
 
-Both models: mAP[.5:.95] ≈ 0.002 (poor generalization, strong domain shift).
+Both models: mAP[.5:.95] = 0.002 (poor generalization, strong domain shift).
+
+After adding more Augmentation::
+
+Validation performance after 20 epochs:
+
+Supervised Faster R-CNN: mAP[.5:.95] = 
+
+SSL Faster R-CNN: mAP[.5:.95] = 
+
+Final test performance:
+
+Both models: mAP[.5:.95] = 
+
 
 # Future Work
 
