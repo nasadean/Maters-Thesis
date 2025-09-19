@@ -55,7 +55,7 @@ Larger and more diverse thermal datasets.
 
 Stronger SSL methods (BYOL, MoCo v3).
 
-Domain adaptation from visible-light to thermal.
+RGB + Thermal training.
 
 Longer training with improved compute resources.
 
