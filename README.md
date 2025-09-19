@@ -38,13 +38,15 @@ After adding more Augmentation::
 
 Validation performance after 20 epochs:
 
-Supervised Faster R-CNN: mAP[.5:.95] = 
+Supervised Faster R-CNN: mAP[.5:.95] =  0.206
 
-SSL Faster R-CNN: mAP[.5:.95] = 
+SSL Faster R-CNN: mAP[.5:.95] = 0.189
 
 Final test performance:
 
-Both models: mAP[.5:.95] = 
+Supervised Faster R-CNN: mAP[.5:.95] =  0.110
+
+SSL Faster R-CNN: mAP[.5:.95] = 0.094
 
 
 # Future Work
